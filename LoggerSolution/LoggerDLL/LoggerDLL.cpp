@@ -35,6 +35,7 @@ namespace LoggerDLL
 	Logger::~Logger()
 	{
 		_fhnd.close();
+		delete(_dt_fmt);
 	}
 
 	void Logger::SetDateFormat(char *fmt)
