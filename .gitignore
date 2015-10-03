@@ -5,6 +5,7 @@ x64/
 build/
 [Bb]in/
 [Oo]bj/
+ipch/
 
 # Compiled Object files 
 *.slo 
@@ -39,7 +40,7 @@ build/
 *.log
 *.tlog
 
-
-
+*.sdf
+*.opensdf
 *.idb
 *.pdb
